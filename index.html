@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Html Card</title>
+  <style>
+    div {
+      border: 1px solid black;
+      width: 16%; padding: 8px;
+      border-radius: 12px;
+    }
+    
+    .class1 { border-bottom: 1px dashed black;
+    }
+
+    li::before { content:"\2713\0020";}
+    
+    li{
+      list-style-type: none;
+    }
+
+    ul {
+      padding-left: 0;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h3>Free</h3>
+    <p> For indiviual or very small <br>just getting started<br>with Airtable
+    </p>
+    <br>
+    <br>
+    <br>
+    <h1>Free</h1>
+    <button>sign up</button>
+    <br>
+    <p><b>Free</b> includes:</p>
+    <ul>
+      <li>Unlimited bases</li>
+      <li>Up to 5 creators or editors</li>
+      <li>Unlimited commenter & read-only users</li>
+      <li><span class="class1">Interface Designer</span></li>
+      <li>1 <span class="class1">extension</span> per base</li>
+      <li>1 sync integration</li>
+      <li>1,200 records per base</li>
+      <li>2GB of attachments per base</li>
+    </ul>
+  </div>  
+</body>
+</html>
